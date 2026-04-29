@@ -18,8 +18,8 @@ W projekcie wykorzystano następujące zależności:
 
 **Wnioski**
 
-* Modele działają niemal identycznie: Różnica między wzorem matematycznym (Black-Scholes) a symulacją (Monte Carlo) jest mniejsza niż 0,1%.
+* **Modele działają niemal identycznie**: Różnica między wzorem matematycznym (Black-Scholes) a symulacją (Monte Carlo) jest mniejsza niż 0,1%.
 
-* Więcej prób = lepszy wynik: W przypadku opcji Put wyraźnie widać, że zwiększenie liczby symulacji z 10 tys. do 50 tys. "wygładziło" wynik (0.4030% -> 0.0313%)
+* **Więcej prób = lepszy wynik**: W przypadku opcji Put wyraźnie widać, że zwiększenie liczby symulacji z 10 tys. do 50 tys. "wygładziło" wynik (0.4030% -> 0.0313%)
 
-* Losowość to norma: Niewielkie wahania błędu (jak przy opcji Call) to naturalna cecha metody Monte Carlo. Wynikają one z przypadku przy losowaniu liczb.
+* **Losowość to norma**: Niewielkie wahania błędu (jak przy opcji Call) to naturalna cecha metody Monte Carlo. Wynikają one z przypadku przy losowaniu liczb.
